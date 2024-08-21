@@ -1,0 +1,25 @@
+.Mcont {
+    text-align: center;
+}
+
+.bluclr {
+    color: #1A76D1;
+    font: "Noto Sans", sans-serif;
+}
+
+.caed {
+    float: left;
+}
+
+.card-img-top:hover {
+    background-color: white;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.card-title {
+    text-decoration: none;
+}

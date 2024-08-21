@@ -1,0 +1,60 @@
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 50px; */
+    padding: 50px 0px 10px 0px;
+}
+
+.custom-card {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+    /* Ensure no extra spacing between cards */
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0.2, 2.1);
+    /* Black shadow on hover */
+    transform: translateY(-10px);
+    /* Slightly lift the card */
+    /* background-color: #f0f0f0; */
+    /* Change background color on hover */
+}
+
+.card-body {
+    padding: 30px 0px;
+}
+
+#Googlemap {
+    padding-right: 10px;
+}
+
+.ContactForm {
+    padding-left: 10px;
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-top: 42%;
+    padding-bottom: 42%;
+    position: relative;
+}
+
+.responsive-map iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.cards {
+    padding-top: 200px;
+}
+
+.contactformcontent {
+    padding: 10px 0px 0px 20px;
+}
